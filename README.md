@@ -1,10 +1,11 @@
 # 说明
 整个项目采用[Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)，按照说明使用模板即可，透明，只是修改了sh脚本增加了一些插件源，修改了默认IP，账号密码仍为root/password。
 
-#### build-openwrt.yml
+## 改动部分
+### 1 build-openwrt.yml
 将 'SSH connection to Actions' 默认改成了 true， 用于触发config自定义， 也可以改回false， 将根目录下某个合适2021xxxconfig改名为`.config`后启动编译
 
-#### diy-part1.sh
+### 2 diy-part1.sh
 添加源
 ```
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
@@ -14,7 +15,7 @@ sed -i '$a src-git fw876 https://github.com/fw876/helloworld' feeds.conf.default
 ```
 
 
-#### diy-part2.sh
+### 3 diy-part2.sh
 修改默认IP
 
 ## changelog
