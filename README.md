@@ -15,9 +15,10 @@
 
 ## 参考引用
 
-- https://github.com/fw876/helloworld
-- https://github.com/P3TERX/Actions-OpenWrt
-- https://mianao.info/2020/05/05/%E7%BC%96%E8%AF%91%E6%9B%B4%E6%96%B0OpenWrt-PassWall%E5%92%8CSSR-plus%E6%8F%92%E4%BB%B6
+- [helloworld](https://github.com/fw876/helloworld)
+- [Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
+- [PVE下LXC模式部署OpenWRT](http://molezz.net/proxmox-pve-kvm-ct-lxc-openwrt/)
+- [添加源参考](https://mianao.info/2020/05/05/%E7%BC%96%E8%AF%91%E6%9B%B4%E6%96%B0OpenWrt-PassWall%E5%92%8CSSR-plus%E6%8F%92%E4%BB%B6)
 
 ## Tips
 
