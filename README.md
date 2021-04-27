@@ -18,9 +18,10 @@ sed -i '$a src-git fw876 https://github.com/fw876/helloworld' feeds.conf.default
 ### 3 diy-part2.sh
 修改默认IP
 
-## changelog
+## 编译更新
 
-- 20210426 第一次编译，已Actions-OpenWrt的Lean为整合Lienol和各插件，形成config记录
+- 20210426 第一次编译，已Actions-OpenWrt的Lean为整合Lienol和各插件，形成config记录 https://molezz.lanzous.com/b0263301g
+密码:g8w0
 
 
 
