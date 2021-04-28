@@ -1,8 +1,10 @@
 # 说明
 整个项目采用[Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)，按照说明使用模板即可，透明，只是修改了sh脚本增加了一些插件源，修改了默认IP，账号密码仍为root/password。
 
-也有编译好的供下载直接使用，只保留最新编译，见编译更新记录
-https://molezz.lanzous.com/b0263301g 密码:g8w0
+也有编译好的供下载直接使用，只保留最新编译，见编译更新记录。
+ 
+下载地址  
+> https://molezz.lanzous.com/b0263301g 密码:g8w0
 
 ## 改动部分
 ### 1 build-openwrt.yml
