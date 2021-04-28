@@ -21,7 +21,7 @@ sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 
 - 20210426 第一次编译，已Actions-OpenWrt的Lean为整合Lienol和各插件，形成config记录 https://molezz.lanzous.com/b0263301g
 密码:g8w0
-- 20210427 第二次编译，去除默认的迅雷快鸟，uu加速等用不上的组件，加了一部分主题，不占多少资源。启动内存较低，详见config
+- 20210427 第二次编译，去除默认的迅雷快鸟，uu加速等用不上的组件，加了一部分主题和iperf3测速，不占多少资源。启动内存较低，详见config中luci部分。或自行注释
 
 
 
