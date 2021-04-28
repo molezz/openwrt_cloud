@@ -3,12 +3,11 @@
 
 ## 改动部分
 ### 1 build-openwrt.yml
-将 'SSH connection to Actions' 默认改成了 true， 用于触发config自定义， 也可以改回false， 将根目录下某个合适2021xxxconfig改名为`.config`后启动编译
+可将 'SSH connection to Actions' 默认值改成 true， 用于触发config自定义， 也可以改回false， 删去默认config将某个合适的config改名为`.config`后启动编译
 
 ### 2 diy-part1.sh
-添加源
+添加源，丰富插件选择
 ```
-
 sed -i '$a src-git kenzok8 https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 ```
