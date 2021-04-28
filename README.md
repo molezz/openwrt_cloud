@@ -6,6 +6,14 @@
 下载地址  
 > https://molezz.lanzous.com/b0263301g 密码:g8w0
 
+
+## 编译更新
+
+
+- 20210427 第二次编译，去除默认的迅雷快鸟，uu加速等用不上的组件，加了一部分主题和iperf3测速，不占多少资源。启动内存较低，详见config中luci部分。或自行注释
+- 20210426 第一次编译，已Actions-OpenWrt的Lean为整合Lienol和各插件，形成config记录
+
+----------------
 ## 改动部分
 ### 1 build-openwrt.yml
 可将 'SSH connection to Actions' 默认值改成 true， 用于触发config自定义， 也可以改回false， 删去默认config将某个合适的config改名为`.config`后启动编译
@@ -20,14 +28,7 @@ sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 
 ### 3 diy-part2.sh
 修改默认IP
-
-## 编译更新
-
-
-- 20210427 第二次编译，去除默认的迅雷快鸟，uu加速等用不上的组件，加了一部分主题和iperf3测速，不占多少资源。启动内存较低，详见config中luci部分。或自行注释
-- 20210426 第一次编译，已Actions-OpenWrt的Lean为整合Lienol和各插件，形成config记录
-
-
+---------------------
 
 ## 参考引用
 
