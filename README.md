@@ -38,6 +38,16 @@ sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 - [Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
 - [PVE下LXC模式部署OpenWRT](http://molezz.net/proxmox-pve-kvm-ct-lxc-openwrt/)
 - [添加源参考](https://mianao.info/2020/05/05/%E7%BC%96%E8%AF%91%E6%9B%B4%E6%96%B0OpenWrt-PassWall%E5%92%8CSSR-plus%E6%8F%92%E4%BB%B6)
+```
+cd lede/package
+git clone https://github.com/kenzok8/openwrt-packages.git
+git clone https://github.com/kenzok8/small.git
+ 
+# 然后执行：
+
+./scripts/feeds update -a
+./scripts/feeds install -a
+```
 
 ## Tips
 
