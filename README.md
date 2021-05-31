@@ -13,6 +13,15 @@
 - 20210427 第二次编译，去除默认的迅雷快鸟，uu加速等用不上的组件，加了一部分主题和iperf3测速，不占多少资源。启动内存较低，详见config中luci部分。或自行注释
 - 20210426 第一次编译，已Actions-OpenWrt的Lean为整合Lienol和各插件，形成config记录
 
+
+- to do
+   +ntfs-3g,fuse-utility
+    - kmod ntfs
+
+
+
+
+
 ----------------
 ## 改动部分
 ### 1 build-openwrt.yml
