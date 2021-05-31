@@ -16,7 +16,7 @@
 
 - to do
    +ntfs-3g,fuse-utility
-    - kmod ntfs
+    -- kmod-ntfs, samb4
 
 
 
