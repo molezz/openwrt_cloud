@@ -4,15 +4,15 @@
 也有编译好的供下载直接使用，只保留最新编译，见编译更新记录。
  
 下载地址  
-> https://molezz.lanzous.com/b0263301g 密码:g8w0
+ https://molezz.lanzoui.com/ilrvlq7vduh 密码:7y6v
 
 
 ## 编译更新
 
 
-- 20210427 第二次编译，去除默认的迅雷快鸟，uu加速等用不上的组件，加了一部分主题和iperf3测速，不占多少资源。启动内存较低，详见config中luci部分。或自行注释
-- 20210426 第一次编译，已Actions-OpenWrt的Lean为整合Lienol和各插件，形成config记录
-
+- 2021.04.27 第二次编译，去除默认的迅雷快鸟，uu加速等用不上的组件，加了一部分主题和iperf3测速，不占多少资源。启动内存较低，详见config中luci部分。或自行注释
+- 2021.04.26 第一次编译，已Actions-OpenWrt的Lean为整合Lienol和各插件，形成config记录
+- 2021.06.14 利用github action云编译了一个rootfs，可直接作为模板创建lxc。
 
 - to do
    +ntfs-3g,fuse-utility
