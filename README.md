@@ -57,6 +57,31 @@ git clone https://github.com/kenzok8/small.git
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 ```
+## 二次编译
+```
+进入lede目录
+cd lede
+
+备份config文件
+cp -r .config xxx.config
+
+更新系统软件包
+sudo apt update && apt upgrade -y"
+
+git pull 
+
+更新Feeds
+./scripts/feeds update -a && ./scripts/feeds install -a
+
+清除编译配置和缓存
+rm -rf ./tmp && rm -rf .config 
+make clean
+
+进入编译配置菜单
+make menuconfig
+
+```
+
 
 ## Tips
 
