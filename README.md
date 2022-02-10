@@ -72,6 +72,12 @@ sudo apt update && sudo apt upgrade -y
 git pull 
 
 更新Feeds
+vi /lede/feeds.conf.default
+添加
+src-git kenzok https://github.com/kenzok8/openwrt-packages
+src-git small https://github.com/kenzok8/small
+
+
 ./scripts/feeds update -a && ./scripts/feeds install -a
 
 清除编译配置和缓存
