@@ -22,7 +22,7 @@
 
 #sed -i '$a src-git kenzok8 https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 #sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
-sed -i '$a src-git packages9 https://git.openwrt.org/feed/packages' feeds.conf.default
-sed -i '$a src-git luci9 https://git.openwrt.org/project/luci' feeds.conf.default
-sed -i '$a src-git routing9 https://git.openwrt.org/feed/routing' feeds.conf.default
+sed -i '$a src-git packages https://git.openwrt.org/feed/packages' feeds.conf.default
+sed -i '$a src-git luci https://git.openwrt.org/project/luci' feeds.conf.default
+sed -i '$a src-git routing https://git.openwrt.org/feed/routing' feeds.conf.default
 sed -i '$a src-git kiddin9 https://github.com/kiddin9/openwrt-packages' feeds.conf.default
