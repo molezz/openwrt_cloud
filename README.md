@@ -9,8 +9,8 @@
 ## 编译更新
 
 - 2022.02.23/24 精简并转到bypass套件，DNSfilter和pushbot。 rootfs下载： x86 https://molezz.lanzouj.com/iCrI300l2g3i 密码:5gfz 。 N1 https://molezz.lanzouj.com/i2B5300l2lch 密码:4bay 
-- 2022.02.10 云编译更新x86-64版本rootfs，可作为模板创建lxc。 https://molezz.lanzouj.com/iOYplzuwf1i  密码:4dh6 （版本跨度较大，如果从备份配置恢复，ssh登陆，编辑/etc/config/rpcd将option socket /var/run/ubus.sock 修改为option socket /var/run/ubus/ubus.sock，然后/etc/init.d/rpcd restart）
-- 2022.02.09 云编译N1的固件，利用rootfs文件import docker精简使用，仅hello，pw，nps等，N1为armbian系统。https://molezz.lanzouj.com/inHzezugy0f  密码:2ggk
+~~- 2022.02.10 云编译更新x86-64版本rootfs，可作为模板创建lxc。 https://molezz.lanzouj.com/iOYplzuwf1i  密码:4dh6 （版本跨度较大，如果从备份配置恢复，ssh登陆，编辑/etc/config/rpcd将option socket /var/run/ubus.sock 修改为option socket /var/run/ubus/ubus.sock，然后/etc/init.d/rpcd restart）
+~- 2022.02.09 云编译N1的固件，利用rootfs文件import docker精简使用，仅hello，pw，nps等，N1为armbian系统。https://molezz.lanzouj.com/inHzezugy0f  密码:2ggk
 - 2021.06.14 利用github action云编译了一个rootfs，可直接作为模板创建lxc。  https://molezz.lanzoui.com/ilrvlq7vduh 密码:7y6v
 - 2021.04.27 第二次编译，去除默认的迅雷快鸟，uu加速等用不上的组件，加了一部分主题和iperf3测速，不占多少资源。启动内存较低，详见config中luci部分。或自行注释
 - 2021.04.26 第一次编译，已Actions-OpenWrt的Lean为整合Lienol和各插件，形成config记录
