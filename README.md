@@ -7,6 +7,7 @@
 
 
 ## 编译更新
+- 2022.10.31 更新x86的rootfs用于lxc， lxd用文件夹覆盖的方式成功。 更新pw1/2，用frp取代nps。
 - 2022.07.07 更新x86的rootfs用于lxc， lxd未果。 还是pw，adguard好用些
 - 2022.02.23/24 精简并转到bypass套件，DNSfilter和pushbot。 rootfs下载： x86 https://molezz.lanzouj.com/iCrI300l2g3i 密码:5gfz 。 N1 https://molezz.lanzouj.com/i2B5300l2lch 密码:4bay 
 
